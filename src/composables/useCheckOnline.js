@@ -1,7 +1,7 @@
 let useCheckOnline = () => {
     if (!window.navigator.onLine) {
         alert("turn internet");
-        return;
+        throw new Error("Something went badly wrong!");
     }
 }
 export { useCheckOnline };

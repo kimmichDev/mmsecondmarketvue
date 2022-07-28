@@ -6,7 +6,7 @@
           <img src="../../assets/logo.png" class="w-100" alt="" />
         </div>
         <div>
-          <p class="text-nowrap my-3 h5 text-light text-uppercase">Myanmar's second market</p>
+          <p class="text-nowrap my-3 h5 text-light text-uppercase">Myanmar second market</p>
         </div>
       </div>
       <div class="col-12 col-md-6 vh-min-60 vh-md-100 d-flex justify-content-center align-items-center">
@@ -51,7 +51,7 @@
 
             <small class="text-danger text-small" v-if="errors.agree">{{ errors.agree[0] }}</small>
             <div>
-              <div class="form-check shadow-sm mb-3">
+              <div class="form-check mb-3">
                 <input v-model="formData.agree" id="agreeInput" :class="['form-check-input', { 'is-invalid': errors.agree }]" type="checkbox" />
                 <label class="form-check-label" for="agreeInput"> သုံးစွဲမှုဆိုင်ရာစည်းမျဉ်းများကို သဘောတူပါသည် </label>
               </div>
