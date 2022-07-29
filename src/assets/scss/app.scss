@@ -15,8 +15,24 @@ $font-family-sans-serif: "Poppins", sans-serif;
   height: 60vh;
 }
 
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-min-50 {
+  min-height: 50vh;
+}
+
 .vh-min-60 {
   min-height: 60vh;
+}
+
+.vh-min-40 {
+  min-height: 40vh;
+}
+
+.vh-min-30 {
+  min-height: 30vh;
 }
 
 @include media-breakpoint-up(sm) {
